@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* ul,
+ol {
+  list-style: none;
+} */
+
+/* a {
+  text-decoration: none;
+} */
+
+.title {
+  background-color: #ffe194;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding : 25px 0;
+}
+
+body {
+  background-color: skyblue;
+
+}
+
+/* .search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid black;
+} */
+/* 
+#searchInput  {
+  margin-left : 5px;
+}
+
+#searchbutton {
+  margin-left : 5px;
+} */
+
+.movie-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  width : 30%;
+  margin : 3%;
+  /* border: 1px solid black; */
+  padding :10px;
+  
+  
+}
+
+#cards {
+  background-color: darkkhaki;
+  display : flex;
+}
+
+#title-container {
+  display: flex;
+  cursor : pointer;
+  flex-wrap: wrap;
+}
